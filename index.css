@@ -1,0 +1,56 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('images/fire-10.gif') no-repeat center center fixed;
+      background-size: cover;
+      color: rgb(255, 255, 255);
+    }
+    banner {
+      text-align: center;
+      padding: 20px;
+    }
+    banner h1 {
+      margin: 0;
+      font-size: 3em;
+      text-shadow: 2px 2px 4px #e7004d;
+      padding-top: 20px;
+    }
+    .slider {
+      display: flex;
+      overflow: hidden;
+      width: 80%;
+      margin: 50px auto;
+      position: relative;
+    }
+    .slides {
+      min-width: 100%;
+      transition: 0.5s;
+      text-align: center;
+    }
+    .img {
+      width: 300px;
+      height: auto;
+      border: 5px solid transparent;
+      border-image: url('flame_border.png') 30 fill stretch;
+    }
+    .slides h3 {
+      margin: 10px 0;
+      font-size: 1.5em;
+      text-shadow: 2px 2px 4px #a100f8;
+    }
+    .buttons {
+      text-align: center;
+    }
+    .buttons button {
+      background-color: transparent;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      font-size: 2em;
+      transition: color 0.3s;
+    }
+    .buttons button:hover {
+      color: #ff6600;
+    }
